@@ -1,8 +1,8 @@
 import QRCode from "qrcode";
 
-const url = "https://www.qrcodesmenusredirects.codes/instagram";
+const url = "https://www.qrcodesmenusredirects.codes/links";
 
-QRCode.toFile("instagram-qr.png", url, {
+QRCode.toFile("links-qr.png", url, {
   width: 2000,
   margin: 2,
 })
