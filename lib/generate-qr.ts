@@ -1,8 +1,8 @@
 import QRCode from "qrcode";
 
-const url = "https://www.qrcodesmenusredirects.codes/links";
+const url = "https://www.qrcodesmenusredirects.codes/mordevo";
 
-QRCode.toFile("links-qr.png", url, {
+QRCode.toFile("mordevo-qr.png", url, {
   width: 2000,
   margin: 2,
 })
